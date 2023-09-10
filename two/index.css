@@ -4,8 +4,18 @@ html {
   min-width: 100vw;
   min-height: 100vh;
 }
+body {
+  background: var(--cream-bg, #f2eae2);
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
 .main {
-  padding: 175px 175px 420px 420px;
   display: flex;
   width: 600px;
   height: 450px;
@@ -14,14 +24,14 @@ html {
   background: var(--Pure-White, #fff);
 }
 img {
-  width: 337.694px;
+  width: 300px;
   height: 450px;
   flex-shrink: 0;
   background: lightgray 0px 0px / 100% 100% no-repeat;
 }
 section.right {
   margin-left: 32px;
-  width: 262.31px;
+  width: 300.31px;
   height: 450px;
 }
 .top {
@@ -48,6 +58,7 @@ section.right {
   font-weight: 700;
   line-height: 32px; /* 100% */
   margin-top: 20px;
+  margin-right: 32px;
 }
 .middle {
   color: var(--Aurometal-Saurus, #6c7289);
@@ -60,6 +71,7 @@ section.right {
   font-weight: 500;
   line-height: 23px; /* 164.286% */
   margin-top: 24px;
+  margin-right: 32px;
 }
 .money {
   display: flex;
@@ -98,6 +110,7 @@ section.right {
   border-radius: 8px;
   background: var(--Deep-Aquamarine, #3d8168);
   margin-top: 30px;
+  margin-right: 32px;
 }
 .btn:hover {
   width: 236px;
@@ -121,11 +134,11 @@ p {
 
 @media (max-width: 600px) {
   .main {
-    padding: 28px 28px 16px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 100%;
   }
   .btn {
     margin-bottom: 24px;
