@@ -1,0 +1,37 @@
+body {
+  color: #222;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+.dropdown {
+  display: inline-block;
+}
+.dropdown-btn {
+  background-color: yellowgreen;
+  border: none;
+  padding: 10px;
+  color: white;
+  width: 200px;
+  font-size: 18px;
+}
+.dropdown-sub {
+  width: 200px;
+  display: none;
+}
+.dropdown-sub a {
+  display: block;
+  padding: 7px;
+  text-align: center;
+}
+.dropdown-sub:hover {
+  background-color: #eee;
+}
+.dropdown:hover .dropdown-sub {
+  display: block;
+}

@@ -1,0 +1,47 @@
+body {
+  line-height: 1.5rem;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+form {
+  margin: auto;
+  position: absolute;
+  background-color: #eee;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  padding: 25px;
+  border-radius: 5px;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  padding-left: 30px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  margin-top: -10px;
+}
+input:hover {
+  border: 1px solid dodgerblue;
+  box-shadow: 0 0 5px dodgerblue;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+button {
+  width: 40%;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #2991b1;
+  border: none;
+  color: #fff;
+  margin-top: 30px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #2c778e;
+}
